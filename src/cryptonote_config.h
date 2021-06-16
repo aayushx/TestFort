@@ -36,7 +36,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(858986905600000000);
 
 const char     GENESIS_COINBASE_HEX[]                        = 
-"010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210183c8cae6778d7c0931d4b51fdc533333dc53315c5f0807470f6792a5fa8bdf75"
+"010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210183c8cae6778d7c0931d4b51fdc533333dc53315c5f0807470f6792a5fa8bdf75";
 const uint32_t GENESIS_NONCE                                 = 420;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
@@ -78,7 +78,7 @@ const uint64_t START_BLOCK_REWARD                            = (UINT64_C(320000)
 const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(150) * parameters::COIN);
 const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
 
-const char     CRYPTONOTE_NAME[]                             = "ducknote";
+const char     CRYPTONOTE_NAME[]                             = "testfort";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
