@@ -33,7 +33,6 @@ else()
   endif()
   set(WARNINGS "-Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized")
   
-  endif()
   if(MINGW)
     set(WARNINGS "${WARNINGS} -Wno-error=unused-value")
     set(MINGW_FLAG "-DWIN32_LEAN_AND_MEAN")
