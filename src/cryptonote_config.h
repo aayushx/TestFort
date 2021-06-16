@@ -35,8 +35,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(858986905600000000);
 
-const char     GENESIS_COINBASE_HEX[]                        = 
-"010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210183c8cae6778d7c0931d4b51fdc533333dc53315c5f0807470f6792a5fa8bdf75";
+const char     GENESIS_COINBASE_HEX[]                        = "";
 const uint32_t GENESIS_NONCE                                 = 420;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
