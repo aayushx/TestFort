@@ -104,8 +104,8 @@ get(std::istream &input, T &res, TT &... resres) {
 
 #else
 #include <boost/preprocessor/cat.hpp>
-#include <boost/preprocessor/repetition/enum_binary_params.hpp>
 #include <boost/preprocessor/repetition/enum_params.hpp>
+#include <boost/preprocessor/repetition/enum_binary_params.hpp>
 #include <boost/preprocessor/repetition/repeat.hpp>
 #include <boost/preprocessor/repetition/repeat_from_to.hpp>
 
