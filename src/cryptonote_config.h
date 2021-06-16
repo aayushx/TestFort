@@ -35,7 +35,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(858986905600000000);
 
-const char     GENESIS_COINBASE_HEX[]                        = "";
+const char     GENESIS_COINBASE_HEX[]                        = "010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210183c8cae6778d7c0931d4b51fdc533333dc53315c5f0807470f6792a5fa8bdf75";
 const uint32_t GENESIS_NONCE                                 = 420;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
@@ -120,7 +120,13 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const CheckpointData CHECKPOINTS[] = {};
+const CheckpointData CHECKPOINTS[] = {
+    { 4200, "76af92fc41eadf9c99df91efc08011d0fce6f3f55b131da2449c187f432f91f7" },
+    { 11000, "970c15459e4d484166c36e303fcf35886e14633b40b1fe4e3f250eb03eaca1f8" },
+    { 44000, "071a97648427ad25ec206ae7101534c9b011376f05dee04780b5edb22f9a919e" },
+    { 80550, "169e6b813b8ee072735bf7f7dc45b9b712b89a1317d1a4e672f6bba785a564fc" },
+    { 128600, "4b67fd3bc0422f8fee358225df849bec01945b298257c6a09b74c905a5b896cb" }
+};
 
 } // cryptonote
 
