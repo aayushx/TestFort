@@ -107,7 +107,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "85ae8734f90bc1ee295ceb0ec05a49852d4dbbc9d1c27a619b5f4bdf26a0196e";
 const size_t   P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT     = 70;
 
-const boost::uuids::uuid NETWORK_ID                          = { { 0x4E, 0x6F, 0x73, 0x63, 0x65, 0x20, 0x74, 0x65, 0x20, 0x69, 0x70, 0x73, 0x75, 0x6D, 0x20, 0x20} };
+const boost::uuids::uuid NETWORK_ID                          = {{0x2E, 0x3F, 0x37, 0x33, 0x55, 0x27, 0x54, 0x45, 0x22, 0x34, 0x72, 0x43, 0x71, 0x4D, 0x10, 0x21}};
 
 const unsigned THREAD_STACK_SIZE                             = 5 * 1024 * 1024;
 
