@@ -88,6 +88,18 @@ namespace cryptonote {
       assert(alreadyGeneratedCoins <= m_moneySupply);
 
       uint64_t baseReward = baseRewardFunction(alreadyGeneratedCoins, height);
+      if (alreadyGeneratedCoins == 0) {
+            baseReward = 1;
+      }
+
+      if (alreadyGeneratedCoins == 1) {
+            baseReward =m_moneySupply*0.10;
+      }
+
+      if (alreadyGeneratedCoins + baseReward >= m_moneySupply) {
+                baseReward = 0;
+      }
+    
 
       size_t blockGrantedFullRewardZone = m_blockGrantedFullRewardZone;
       medianSize = std::max(medianSize, blockGrantedFullRewardZone);
