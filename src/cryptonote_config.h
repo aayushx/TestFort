@@ -91,7 +91,7 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 const int      P2P_DEFAULT_PORT                              =  8080;
-const int      RPC_DEFAULT_PORT                              =  42081;
+const int      RPC_DEFAULT_PORT                              =  8082;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -112,8 +112,8 @@ const boost::uuids::uuid NETWORK_ID                          = {{0x2E, 0x3F, 0x3
 const unsigned THREAD_STACK_SIZE                             = 5 * 1024 * 1024;
 
 const char* const SEED_NODES[] = {
-  "3.134.116.128:8080",
-  "18.118.114.227:8080",
+  "18.117.225.31:8080",
+  "13.58.168.212:8080",
 };
 
 struct CheckpointData {
