@@ -1,0 +1,2 @@
+/usr/bin/ar cr libepee.a  CMakeFiles/epee.dir/epee/include/misc_log_ex.cpp.o CMakeFiles/epee.dir/epee/include/string_tools.cpp.o CMakeFiles/epee.dir/epee/include/misc_os_dependent.cpp.o
+/usr/bin/ranlib libepee.a

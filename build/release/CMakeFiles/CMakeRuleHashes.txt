@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+fa77478fd9c497939175c2c0f2d6522a CMakeFiles/version
+8a79a3032d844c543d1ddebc1146c45f tests/CMakeFiles/tests
